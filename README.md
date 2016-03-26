@@ -20,6 +20,11 @@ To use the workflow, type `td` in your Alfred, followed by the name of the docum
 Internally, the [texdoc][texdoc] command is used to query the documentation present on your local computer.
 Hence, the query in the figure above will open the documentation of [texdoc][texdoc] in your default viewer.
 
+## Links
+
+ - [Alfred forum topic](http://www.alfredforum.com/topic/8705-texdoc-workflow/)
+ - [Packal page](http://www.packal.org/workflow/texdoc)
+
 [alfred2]: https://www.alfredapp.com
 [mactex]: https://tug.org/mactex/
 [texdoc]: https://www.tug.org/texdoc/
