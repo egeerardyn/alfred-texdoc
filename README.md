@@ -19,16 +19,20 @@ Installation is pretty easy:
 
 To use the workflow, type `td` in your Alfred, followed by the name of the documentation you want to consult.
 
-![Example `td texdoc`](img/example.png)
+![Example `td texdoc`](img/example-td.png)
 
 Internally, the [texdoc][texdoc] command is used to query the documentation present on your local computer.
 Hence, the query in the figure above will open the documentation of [texdoc][texdoc] in your default viewer.
 
 ### Keyword `tdn`
 
+![Example `tdn texdoc`](img/example-tdn.png)
+
 If you type `tdn` followed by a package name into Alfred, you will download the corresponding documentation from [texdoc.net][texdocnet].
 
 ### Keyword `ctan`
+
+![Example `td texdoc`](img/example-ctan.png)
 
 This keyword opens the [CTAN][CTAN] page for the package you specify, i.e. `https://www.ctan.org/pkg/<name>`.
 
