@@ -1,4 +1,6 @@
-# Alfred 2 TeXdoc workflow
+# TeXdoc workflow for Alfred
+
+![TeXdoc](./img/texdoc-logo.png)
 
 This repository contains a Workflow for [Alfred 2][alfred2] that allows you to easily open the documentation of your [TeX distribution][mactex].
 
