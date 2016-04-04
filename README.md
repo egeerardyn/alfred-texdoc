@@ -10,9 +10,15 @@ It makes use of your local LaTeX installation, so searching the documentation is
 
 Installation is pretty easy:
 
- 1. Download [TeXdoc.alfredworkflow](TeXdoc.alfredworkflow) from this repository.
+ 1. Download `TeXdoc.alfredworkflow` from the [latest release](https://github.com/egeerardyn/alfred-texdoc/releases/latest).
  2. Open the workflow and install it in Alfred.
 
+Alternatively, if you want to build from the repository, run the following instructions in your working directory
+
+```bash
+make workflow # build the workflow
+make install  # install into Alfred
+```
 ## Usage
 
 ### Keyword `td`
