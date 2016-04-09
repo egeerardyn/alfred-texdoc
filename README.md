@@ -16,7 +16,7 @@ Installation is pretty easy:
 Alternatively, if you want to build from the repository, run the following instructions in your working directory
 
 ```bash
-make workflow # build the workflow
+make alfredworkflow # build the workflow
 make install  # install into Alfred
 ```
 ## Usage

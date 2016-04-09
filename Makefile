@@ -1,7 +1,7 @@
 ZIP=zip
 BINDIR=./bin
 
-workflow:
+alfredworkflow:
 	git archive --format=zip -o $(BINDIR)/TeXdoc.alfredworkflow HEAD
 
 .PHONY: clean install
