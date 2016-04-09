@@ -88,11 +88,10 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>102</integer>
 				<key>script</key>
-				<string>#!/bin/bash
-export PATH=/usr/texbin/:/Library/TeX/texbin:$PATH
-texdoc {query}</string>
+				<string>export PATH=/usr/texbin/:/Library/TeX/texbin:$PATH
+/usr/bin/python texdoc.py "{query}"</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
