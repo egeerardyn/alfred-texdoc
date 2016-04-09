@@ -6,22 +6,11 @@
 	<string>be.egongeerardyn.alfred-texdoc</string>
 	<key>connections</key>
 	<dict>
-		<key>0CF031C2-9D75-4E2A-8F54-B372895727CA</key>
+		<key>547C49EC-0A00-4748-8830-0D66188032D7</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>526B2A66-CDDA-47F6-8834-88D68C9B98E2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>B11B132B-4A61-4C05-8F4F-2111F454E6C6</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0CF031C2-9D75-4E2A-8F54-B372895727CA</string>
+				<string>6FE54674-989F-4263-8C1C-0995A21ACDE4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -66,66 +55,48 @@
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
 				<key>keyword</key>
 				<string>td</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Searching...</string>
+				<key>script</key>
+				<string>export PATH=/usr/texbin/:/Library/TeX/texbin:$PATH
+/usr/bin/python texdoc.py "{query}"</string>
 				<key>subtext</key>
 				<string>Search your local the TeX documentation</string>
-				<key>text</key>
+				<key>title</key>
 				<string>TeXdoc</string>
+				<key>type</key>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>B11B132B-4A61-4C05-8F4F-2111F454E6C6</string>
+			<string>547C49EC-0A00-4748-8830-0D66188032D7</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>export PATH=/usr/texbin/:/Library/TeX/texbin:$PATH
-/usr/bin/python texdoc.py "{query}"</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
+			<dict/>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>0CF031C2-9D75-4E2A-8F54-B372895727CA</string>
+			<string>6FE54674-989F-4263-8C1C-0995A21ACDE4</string>
 			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>output</key>
-				<integer>0</integer>
-				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>TeXdoc</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>526B2A66-CDDA-47F6-8834-88D68C9B98E2</string>
-			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -208,17 +179,17 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>0CF031C2-9D75-4E2A-8F54-B372895727CA</key>
-		<dict>
-			<key>ypos</key>
-			<real>180</real>
-		</dict>
 		<key>40DC9606-85EC-4D99-B56A-82B2214F0616</key>
 		<dict>
 			<key>ypos</key>
 			<real>300</real>
 		</dict>
-		<key>526B2A66-CDDA-47F6-8834-88D68C9B98E2</key>
+		<key>547C49EC-0A00-4748-8830-0D66188032D7</key>
+		<dict>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+		<key>6FE54674-989F-4263-8C1C-0995A21ACDE4</key>
 		<dict>
 			<key>ypos</key>
 			<real>180</real>
@@ -227,11 +198,6 @@
 		<dict>
 			<key>ypos</key>
 			<real>420</real>
-		</dict>
-		<key>B11B132B-4A61-4C05-8F4F-2111F454E6C6</key>
-		<dict>
-			<key>ypos</key>
-			<real>180</real>
 		</dict>
 		<key>B2CA58D8-E552-4AEE-9FE1-1C79F564866D</key>
 		<dict>

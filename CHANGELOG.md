@@ -1,3 +1,9 @@
+## Version 2.0.0
+
+Searching is interactive. When you type a query, `texdoc` will automatically
+display the results in Alfred instead of opening the first hit.
+Moreover, you can do all Alfred file actions on the results.
+
 ## Version 1.2.0
 
 Uses [Workflow for Python](https://github.com/deanishe/alfred-workflow) now.
