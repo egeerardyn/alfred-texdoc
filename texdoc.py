@@ -35,12 +35,12 @@ def main(wf):
 
 def parseLine(line):
     # Line has format "<KEYWORD> <SCORE> <PATH> <DESCRIPTIONS>"
-    parts = line.split('\t',3)
-    result = {'keyword': '','score': '', 'file': '', 'description':''}
-    if len(parts) >= 1: result['keyword'] = parts[0]
-    if len(parts) >= 2: result['score'] = parts[1]
-    if len(parts) >= 3: result['file'] = parts[2]
-    if len(parts) >= 4: result['description'] = parts[3]
+    values = line.split('\t',3)
+    fields = ('keyword','score','file','description')
+    # Build dictionary with values
+    result = dict((field,'') for field in fields)
+    for (field,value) in zip(fields, values):
+        result[field] = value
     return result
 
 if __name__ == '__main__':

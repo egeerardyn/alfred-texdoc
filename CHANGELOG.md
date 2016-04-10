@@ -1,3 +1,7 @@
+## Version 2.0.1
+
+Minor code cleanup.
+
 ## Version 2.0.0
 
 Searching is interactive. When you type a query, `texdoc` will automatically
