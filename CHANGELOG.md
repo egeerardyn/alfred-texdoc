@@ -1,3 +1,7 @@
+## Version 2.1.0
+
+Import newer version of alfred-workflow to avoid bug in macOS 10.12.4 and newer.
+
 ## Version 2.0.1
 
 Minor code cleanup.
