@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # encoding utf-8
 
 import sys
@@ -15,6 +15,7 @@ log = None
 def main(wf):
     args = wf.args
     results = check_output(["texdoc", '--list', '-M', args[0]])
+    results = str(results, 'utf-8')
 
     if len(results) != 0:
         lines = results.split('\n')

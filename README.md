@@ -2,7 +2,7 @@
 
 ![TeXdoc](./img/texdoc-logo.png)
 
-This repository contains a Workflow for [Alfred 2][alfred2] that allows you to easily open the documentation of your [TeX distribution][mactex].
+This repository contains a Workflow for [Alfred 5](https://www.alfredapp.com/) that allows you to easily open the documentation of your [TeX distribution][mactex].
 
 It makes use of your local LaTeX installation, so searching the documentation is really fast and does not depends on websites such as [texdoc.net][texdocnet].
 
